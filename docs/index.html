@@ -174,20 +174,20 @@
         <div class="columns is-vcentered">
           <!-- Video Column -->
           <div class="column is-half has-text-centered">
-            <div class="publication-video" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white;">
-              <!-- FIX APLICADO AQUÍ: height y object-fit -->
-              <video id="video-string" controls muted loop style="width: 100%; height: 320px; object-fit: contain; background-color: white; display: block;">
+            <!-- NOTA: Se eliminó la clase publication-video y se estandarizó la caja -->
+            <figure class="image" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white; margin: 0; height: 320px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+              <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: contain; display: block;">
                 <source src="static/videos/string_simulation.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
-            </div>
+            </figure>
             <p class="has-text-grey" style="margin-top: 10px; font-size: 0.9em;">Simulation of the geometrically exact spatial string dynamics.</p>
           </div>
           <!-- Image Column -->
           <div class="column is-half has-text-centered">
-            <figure class="image" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white; margin: 0;">
-              <!-- FIX APLICADO AQUÍ: height y object-fit -->
-              <img src="static/images/string_energy.png" alt="Energy evolution of the spatial string" style="width: 100%; height: 300px; object-fit: contain; background-color: white; display: block;">
+            <!-- NOTA: La caja de la imagen tiene exactamente los mismos estilos que el video -->
+            <figure class="image" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white; margin: 0; height: 320px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+              <img src="static/images/string_energy.png" alt="Energy evolution of the spatial string" style="width: 100%; height: 100%; object-fit: contain; display: block;">
             </figure>
             <p class="has-text-grey" style="margin-top: 10px; font-size: 0.9em;">Energy evolution and balance over time.</p>
           </div>
@@ -200,20 +200,20 @@
         <div class="columns is-vcentered">
           <!-- Video Column -->
           <div class="column is-half has-text-centered">
-            <div class="publication-video" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white;">
-              <!-- FIX APLICADO AQUÍ: height y object-fit -->
-              <video id="video-elasticity" controls muted loop style="width: 100%; height: 300px; object-fit: contain; background-color: white; display: block;">
+            <!-- NOTA: Se eliminó la clase publication-video y se estandarizó la caja -->
+            <figure class="image" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white; margin: 0; height: 320px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+              <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: contain; display: block;">
                 <source src="static/videos/elasticity_simulation.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
-            </div>
+            </figure>
             <p class="has-text-grey" style="margin-top: 10px; font-size: 0.9em;">Simulation of the nonlinear 2D elasticity using a Neo-Hookean material model.</p>
           </div>
           <!-- Image Column -->
           <div class="column is-half has-text-centered">
-            <figure class="image" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white; margin: 0;">
-              <!-- FIX APLICADO AQUÍ: height y object-fit -->
-              <img src="static/images/elasticity_energy.png" alt="Energy evolution of the 2D elasticity model" style="width: 100%; height: 300px; object-fit: contain; background-color: white; display: block;">
+            <!-- NOTA: La caja de la imagen tiene exactamente los mismos estilos que el video -->
+            <figure class="image" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white; margin: 0; height: 320px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+              <img src="static/images/elasticity_energy.png" alt="Energy evolution of the 2D elasticity model" style="width: 100%; height: 100%; object-fit: contain; display: block;">
             </figure>
             <p class="has-text-grey" style="margin-top: 10px; font-size: 0.9em;">Energy evolution and balance over time.</p>
           </div>
