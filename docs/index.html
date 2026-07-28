@@ -166,16 +166,17 @@
   <!-- Numerical Simulations Videos -->
   <section class="section">
     <div class="container is-max-desktop">
-      <h2 class="title is-3 has-text-centered" style="margin-bottom: 50px;">Numerical Simulations</h2>
+      <h2 class="title is-3 has-text-centered" style="margin-bottom: 50px;">Numerical simulations</h2>
       
       <!-- Block 1: Spatial String -->
       <div class="simulation-block" style="margin-bottom: 80px;">
-        <h3 class="title is-4">1. Geometrically Exact Spatial String</h3>
+        <h3 class="title is-4">1. Geometrically exact spatial string</h3>
         <div class="columns is-vcentered">
           <!-- Video Column -->
           <div class="column is-half has-text-centered">
-            <div class="publication-video" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-              <video id="video-string" controls muted loop width="100%">
+            <div class="publication-video" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white;">
+              <!-- FIX APLICADO AQUÍ: height y object-fit -->
+              <video id="video-string" controls muted loop style="width: 100%; height: 300px; object-fit: contain; background-color: white; display: block;">
                 <source src="static/videos/string_simulation.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -184,9 +185,9 @@
           </div>
           <!-- Image Column -->
           <div class="column is-half has-text-centered">
-            <figure class="image" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white;">
-              <!-- TODO: Update the image source path with your actual energy plot -->
-              <img src="static/images/string_energy.png" alt="Energy evolution of the spatial string">
+            <figure class="image" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white; margin: 0;">
+              <!-- FIX APLICADO AQUÍ: height y object-fit -->
+              <img src="static/images/string_energy.png" alt="Energy evolution of the spatial string" style="width: 100%; height: 300px; object-fit: contain; background-color: white; display: block;">
             </figure>
             <p class="has-text-grey" style="margin-top: 10px; font-size: 0.9em;">Energy evolution and balance over time.</p>
           </div>
@@ -195,23 +196,24 @@
 
       <!-- Block 2: 2D Elasticity -->
       <div class="simulation-block">
-        <h3 class="title is-4">2. Nonlinear 2D Elasticity (Neo-Hookean)</h3>
+        <h3 class="title is-4">2. Nonlinear 2D elasticity (Neo-Hookean)</h3>
         <div class="columns is-vcentered">
           <!-- Video Column -->
           <div class="column is-half has-text-centered">
-            <div class="publication-video" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-              <video id="video-elasticity" controls muted loop width="100%">
+            <div class="publication-video" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white;">
+              <!-- FIX APLICADO AQUÍ: height y object-fit -->
+              <video id="video-elasticity" controls muted loop style="width: 100%; height: 300px; object-fit: contain; background-color: white; display: block;">
                 <source src="static/videos/elasticity_simulation.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
-            <p class="has-text-grey" style="margin-top: 10px; font-size: 0.9em;">Simulation of the Nonlinear 2D Elasticity using a Neo-Hookean material model.</p>
+            <p class="has-text-grey" style="margin-top: 10px; font-size: 0.9em;">Simulation of the nonlinear 2D elasticity using a Neo-Hookean material model.</p>
           </div>
           <!-- Image Column -->
           <div class="column is-half has-text-centered">
-            <figure class="image" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white;">
-              <!-- TODO: Update the image source path with your actual energy plot -->
-              <img src="static/images/elasticity_energy.png" alt="Energy evolution of the 2D elasticity model">
+            <figure class="image" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: white; margin: 0;">
+              <!-- FIX APLICADO AQUÍ: height y object-fit -->
+              <img src="static/images/elasticity_energy.png" alt="Energy evolution of the 2D elasticity model" style="width: 100%; height: 300px; object-fit: contain; background-color: white; display: block;">
             </figure>
             <p class="has-text-grey" style="margin-top: 10px; font-size: 0.9em;">Energy evolution and balance over time.</p>
           </div>
