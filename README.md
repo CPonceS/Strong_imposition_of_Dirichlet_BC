@@ -1,6 +1,6 @@
 # Supplementary material
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2607.26248-b31b1b.svg)](https://arxiv.org/abs/2607.26248)
 
 This repository contains the MATLAB source code to reproduce the numerical simulations presented in our paper:
 
@@ -32,6 +32,6 @@ If you use this code or find our work helpful for your research, please cite our
 @article{ponce2026strong,
   title={Strong imposition of Dirichlet boundary velocities in structure-preserving discretizations of elastodynamics},
   author={Ponce, Cristobal and Ramirez, Hector and Wu, Yongxin and Liu, Ning and Le Gorrec, Yann},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2607.26248},
   year={2026}
 }
