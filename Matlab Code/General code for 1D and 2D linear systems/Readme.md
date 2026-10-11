@@ -11,8 +11,23 @@ Specifically, it provides the numerical schemes for the strong imposition of Dir
 
 If you use this code or these models in your own research, we kindly request that you cite the appropriate sources:
 
-**1. For the numerical implementation (Strong imposition of Dirichlet boundary velocities):**
-*   *Strong imposition of Dirichlet boundary velocities in structure-preserving discretizations of elastodynamics*. arXiv preprint: [arXiv:2607.26248](https://arxiv.org/abs/2607.26248)
+```bibtex
 
-**2. For the underlying linear port-Hamiltonian models:**
-*   [A systematic methodology for port-Hamiltonian modeling of multidimensional flexible linear mechanical systems](https://www.sciencedirect.com/science/article/pii/S0307904X24002750)
+1. For the underlying linear port-Hamiltonian models:
+@article{ponce2024systematic,
+  title={A systematic methodology for port-Hamiltonian modeling of multidimensional flexible linear mechanical systems},
+  author={Ponce, Cristobal and Wu, Yongxin and Le Gorrec, Yann and Ramirez, Hector},
+  journal={Applied Mathematical Modelling},
+  volume={134},
+  pages={434--451},
+  year={2024},
+  publisher={Elsevier}
+}
+
+2. For the numerical implementation (Strong imposition of Dirichlet boundary velocities):
+@article{ponce2026strong,
+  title={Strong imposition of Dirichlet boundary velocities in structure-preserving discretizations of elastodynamics},
+  author={Ponce, Cristobal and Ramirez, Hector and Wu, Yongxin and Liu, Ning and Le Gorrec, Yann},
+  journal={arXiv preprint arXiv:2607.26248},
+  year={2026}
+}
