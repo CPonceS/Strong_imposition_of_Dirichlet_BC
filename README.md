@@ -42,7 +42,6 @@ If you use this code or these models in your own research, we kindly request tha
   publisher={Elsevier}
 }
 
-
 2. For the underlying nonlinear/hyperelastic port-Hamiltonian models:
 @article{ponce2025port,
   title={A port-Hamiltonian framework for the modeling and FEM discretization of hyperelastic systems},
